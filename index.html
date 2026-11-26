@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Viaggi">
+<title>Viaggi</title>
+<style>
+:root{color-scheme:light dark;--bg:light-dark(#f2f2f7,#000);--card:light-dark(#fff,#1c1c1e);--ink:light-dark(#000,#fff);--ink2:light-dark(#6e6e73,#98989d)}
+*{box-sizing:border-box}
+body{margin:0;min-height:100vh;background:var(--bg);color:var(--ink);font:17px/1.4 -apple-system,BlinkMacSystemFont,"SF Pro Text","Helvetica Neue",Arial,sans-serif;display:grid;place-items:center;padding:24px}
+main{width:100%;max-width:520px}
+h1{font-size:40px;font-weight:700;letter-spacing:-.02em;margin:0 4px 4px}
+p{color:var(--ink2);margin:0 4px 24px}
+a{display:flex;align-items:center;gap:16px;background:var(--card);border-radius:20px;padding:18px;margin-bottom:14px;text-decoration:none;color:inherit;min-height:88px;transition:transform .12s}
+a:active{transform:scale(.98)}
+.ico{width:56px;height:56px;border-radius:14px;display:grid;place-items:center;color:#fff;flex:none}
+.ico svg{width:30px;height:30px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+strong{display:block;font-size:20px}
+small{color:var(--ink2);font-size:15px}
+</style>
+</head>
+<body>
+<main>
+  <h1>Viaggi</h1>
+  <p>Scegli cosa vuoi fare.</p>
+  <a href="percorso.html"><span class="ico" style="background:#007aff"><svg viewBox="0 0 24 24"><path d="M9 4L3 6v14l6-2 6 2 6-2V4l-6 2z"/><path d="M9 4v14M15 6v14"/></svg></span>
+    <span><strong>Percorso</strong><small>Calcola la strada, le soste, dove dormire, mangiare e cosa vedere</small></span></a>
+  <a href="viaggi.html"><span class="ico" style="background:#af52de"><svg viewBox="0 0 24 24"><rect x="4" y="6" width="16" height="14" rx="2"/><path d="M9 6V4h6v2M4 12h16"/></svg></span>
+    <span><strong>I miei viaggi</strong><small>Programma, prenotazioni, documenti, spese e note di ogni viaggio</small></span></a>
+</main>
+</body>
+</html>
